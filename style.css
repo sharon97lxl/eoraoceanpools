@@ -13,7 +13,7 @@ html {
 
 .mapboxgl-popup {
     display: flex;
-    max-width: 500px;
+    max-width: 300px;
     justify-content: center;
     box-shadow: 2px 2px 2px black;
 }
