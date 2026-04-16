@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'MAPBOX_TOKEN_PLACEHOLDER';
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhcm9uOTdsaSIsImEiOiJjbW5pM2I4YXgwOTBjMnFwcHl1MDQ2bm82In0.cnc2hjzuK1oBWdo6VIBKNQ';
 
 //marker positions
 const monument = [151.26708326266586, -33.90129524469586]
