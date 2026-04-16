@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhcm9uOTdsaSIsImEiOiJjbW5pM2I4YXgwOTBjMnFwcHl1MDQ2bm82In0.cnc2hjzuK1oBWdo6VIBKNQ';
+mapboxgl.accessToken = 'MAPBOX_TOKEN_PLACEHOLDER';
 
 //marker positions
 const monument = [151.26708326266586, -33.90129524469586]
@@ -11,12 +11,13 @@ const map = new mapboxgl.Map({
             showPointOfInterestLabels: false,
             showRoadLabels: false,
             showLandmarkIconLabels: false,
-            theme: "faded"
+            theme: "faded",
+            lightPreset: "dawn"
         }
     },
     projection: 'globe', // display the map as a globe
     zoom: 10.8, // initial zoom level, 0 is the world view, higher values zoom in
-    center: [151.22954, -33.87803] // center the map on this longitude and latitude
+    center: [151.282929, -33.87803] // center the map on this longitude and latitude
 });
 
 //location data for each marker
